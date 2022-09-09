@@ -1,14 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <unistd.h>
 
 /**
- * main - prints out he last part of a quote in the standard error.
- *
- * Return: 1 if success.
+ * main -Prints out the last oart of a quote in the standartd error.
+ * Return 1 if success.
  */
 int main(void)
-{
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",59);
-			
-	return (1);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	return(1);
 }

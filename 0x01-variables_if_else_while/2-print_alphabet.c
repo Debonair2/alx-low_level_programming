@@ -12,11 +12,11 @@
 void print_alphabet(void)
 {
 	char c = 'a';
-	int i;
+	int blessing;
 
-	for (i = 0; i < 26; i++)
+	for (blessing = 0; blessing < 26; blessing++)
 	{
-		_putchar(c + i);
+		putchar(c + i);
 	}
-	_putchar(10);
+		putchar(10);
 }

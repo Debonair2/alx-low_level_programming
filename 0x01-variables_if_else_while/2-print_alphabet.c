@@ -6,17 +6,19 @@
  * print_alphabet -  prints the lowercase alphabet
  *
  *
- * Return: void
+ * Return: 	Always 0 (Success)
  */
 
-void print_alphabet(void)
-{
-	char c = 'a';
+void main(void)
+
 	int blessing;
 
 	for (blessing = 0; blessing < 26; blessing++)
 	{
-		putchar(c + blessing);
+		putchar(blessing);
 	}
-		putchar(10);
+	{
+		putchar('\n');
+	}
+	return(0);
 }

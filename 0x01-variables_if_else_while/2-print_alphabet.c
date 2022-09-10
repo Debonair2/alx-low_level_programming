@@ -16,7 +16,7 @@ void print_alphabet(void)
 
 	for (blessing = 0; blessing < 26; blessing++)
 	{
-		putchar(c + i);
+		putchar(c + blessing);
 	}
 		putchar(10);
 }

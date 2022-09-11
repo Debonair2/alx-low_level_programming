@@ -9,18 +9,17 @@ int main(void)
 {
 	int d = 48;
 
-	while(d<58)
+	while (d < 58)
 	{
 		putchar(d);
-		if(d != 57)
+		if (d != 57)
 		{
 			putchar(',');
-			putchar('');
+			putchar(' ');
 		}
-		d++;
+		d++
 	}
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
-

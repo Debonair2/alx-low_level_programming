@@ -1,24 +1,20 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
- * print_alphabet -  prints the lowercase alphabet
+ * main - Entry point
  *
- *
- * Return: 	Always 0 (Success)
+ * Return: Always 0 (Success)
  */
+int main(void)
+{
+	char c = 'a';
 
-void main(void)
-
-	int blessing;
-
-	for (blessing = 0; blessing < 26; blessing++)
+	while (c <= 'z')
 	{
-		putchar(blessing);
+		putchar(c);
+		c++;
 	}
-	{
-		putchar('\n');
-	}
-	return(0);
+	putchar('\n');
+
+	return (0);
 }

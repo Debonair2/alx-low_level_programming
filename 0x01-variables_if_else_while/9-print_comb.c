@@ -12,9 +12,9 @@ int main(void)
 	while(d<58)
 	{
 		putchar(d);
-		if(d !=57)
+		if(d != 57)
 		{
-			putchar(';');
+			putchar(',');
 			putchar('');
 		}
 		d++;

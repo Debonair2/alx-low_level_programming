@@ -18,7 +18,7 @@ int main(void)
 	}
 	while (i <= sqrt(n))
 	{
-		while (n % i ==0)
+		while (n % i == 0)
 		{
 			max = i;
 			n = n / i;

@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 
 /**
  * print_times_table - Print the `n` times table, starting with 0.

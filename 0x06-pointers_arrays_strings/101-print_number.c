@@ -24,7 +24,7 @@ void print_number(int num)
 		while (n >= d)
 		{
 			d *= 10;
-			f (d >= 1000000000)
+			if (d >= 1000000000)
 			if (d == 1000000000)
 				break;
 		}

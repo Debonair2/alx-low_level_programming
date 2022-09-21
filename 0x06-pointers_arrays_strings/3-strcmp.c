@@ -4,7 +4,7 @@
  * _strcmp - function to copy string
  *
  * @s1: first string to compare
- * s2: second string to compare
+ * @s2: second string to compare
  * Return: int
  */
 int _strcmp(char *s1, char *s2)
